@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "noImplicitAny": true,
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "allowJs": true
+    },
+    "include": [
+        "./src/app/**",
+        "./src/app/**/**"
+    ]
+}

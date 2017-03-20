@@ -1,0 +1,34 @@
+#google-map {
+    width: 100%;
+    height: 100%;
+}
+
+#map-info-window {
+    position: absolute;
+    bottom: 5;
+    right: 5;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* REMOVE COPYRIGHT*/
+
+a[href^="http://maps.google.com/maps"] {
+    display: none !important
+}
+
+a[href^="https://maps.google.com/maps"] {
+    display: none !important
+}
+
+.gmnoprint a,
+.gmnoprint span,
+.gm-style-cc {
+    display: none;
+}
+
+.gmnoprint div {
+    background: none !important;
+}

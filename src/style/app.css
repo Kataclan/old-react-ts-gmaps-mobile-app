@@ -1,0 +1,70 @@
+#app {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#content-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    height: calc(100% - 65px);
+    /* Footer height = 65px */
+}
+
+#search-field-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+#rpoi-container {
+    position: relative;
+    width: 100%;
+    height: calc(60% - 50px);
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+#app-info-container {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background: #aaa;
+}
+
+#rpoi-list-container {
+    display: block;
+    width: 100%;
+    margin: auto;
+}

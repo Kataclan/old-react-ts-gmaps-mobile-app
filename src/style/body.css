@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.myclassName {
+    background-color: rgba(0, 0, 250, 0.5);
+}
+
+.gesture {
+    padding: 5px 20px 5px 20px;
+    border: solid white 2px;
+}
+
+.gesture .active {
+    border: solid white 2px;
+}

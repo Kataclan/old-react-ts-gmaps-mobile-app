@@ -1,0 +1,55 @@
+#app-bar {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+#app-bar .left {
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 100%;
+}
+
+#app-bar .right {
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 100%;
+}
+
+#app-bar .center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    color: #9C27B0;
+}
+
+
+/* !important to cross Material UI styles */
+
+#app-bar .right button,
+#app-bar .left button {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#app-bar .center .title-square {
+    width: 80px;
+    height: 40px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #9C27B0;
+}
+
+#app-bar .center .title-square span {
+    align-self: center;
+    font-weight: bold;
+}
